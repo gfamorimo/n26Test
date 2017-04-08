@@ -1,24 +1,19 @@
-package com.gabrielfao.n26.validator.repositories;
+package com.gabrielfao.n26.repositories;
 
 import static org.junit.Assert.assertEquals;
 
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.gabrielfao.n26.dto.StatisticsDTO;
 import com.gabrielfao.n26.entities.Transaction;
-import com.gabrielfao.n26.repositories.TransactionRepository;
 
 @RunWith(SpringRunner.class)
 public class TransactionRepositoryTest {
